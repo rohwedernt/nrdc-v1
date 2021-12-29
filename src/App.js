@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Navigation from './Navigation.js';
@@ -16,7 +16,7 @@ const theme = createMuiTheme({
   },
 });
 
-class App extends Component {
+class Nrdcv1 extends Component {
   render() {
     return (
       <div style={{width: '100%'}}>
@@ -30,4 +30,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Nrdcv1;

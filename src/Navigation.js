@@ -7,11 +7,6 @@ const style = {
     justifyContent: 'center'
 }
 
-const ulStyle = {
-  listStyleType: 'none',
-  padding: '0',
-}
-
 class Navigation extends Component {
   render() {
     return (

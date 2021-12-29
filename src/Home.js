@@ -72,27 +72,27 @@ class Home extends React.PureComponent {
 
     return (
       <HomeContent className="blog-content" pose={isOpen ? 'open' : 'closed'}>
-        <a target="_blank" href='https://github.com/rohwedernt'>
+        <a target="_blank" rel="noopener noreferrer" href='https://github.com/rohwedernt'>
           <Item className="item">
             <Github />
           </Item>
         </a>
-        <a target="_blank" href='https://www.linkedin.com/in/nate-rohweder-8b1026121/'>
+        <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/nate-rohweder-8b1026121/'>
           <Item className="item">
             <LinkedIn />
           </Item>
         </a>
-        <a target="_blank" href='https://twitter.com/nrohweder1'>
+        <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/nrohweder1'>
           <Item className="item">
             <Twitter />
           </Item>
         </a>
-        <a target="_blank" href='https://www.facebook.com/rohwedernt'>
+        <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/rohwedernt'>
           <Item className="item">
             <Facebook />
           </Item>
         </a>
-        <a target="_blank" href='https://www.instagram.com/naterohweder/'>
+        <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/naterohweder/'>
           <Item className="item">
             <Instagram />
           </Item>
