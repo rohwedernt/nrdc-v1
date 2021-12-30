@@ -1,3 +1,3 @@
-import Nrdcv1 from "../App";
+import Nrdcv1 from "./App";
 
 export { Nrdcv1 };
